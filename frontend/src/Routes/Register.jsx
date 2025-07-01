@@ -9,7 +9,7 @@ import { GoogleLogin } from '@react-oauth/google';
 import { FaEye, FaEyeSlash, FaHome, FaUserPlus } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import video from '../assets/motion.mp4';
-import { Toaster } from 'sonner';
+import { Toaster, toast } from 'sonner';
 
 const Register = () => {
   const navigate = useNavigate();
